@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'Lexavision',
     description: "A web app built with React that allows translating text from uploaded or mobile-captured images. This is achieved by a two-step process and different API services. The first step is performing OCR on the image using the Optiic API in order to generate the text and the next step is translating the text using the DeepL API. The app provides automatic language identification both for OCR and translation.",
-      image: '/images/lexavision.png',
+      image: './images/lexavision.png',
       tags: ['React'],
       source: 'https://github.com/pap-x/lexavision',
       visit: 'https://pap-x.github.io/lexavision/',
@@ -50,7 +50,7 @@ export const projects = [
   {
     title: 'BACCHUS',
     description: "A full-stack application based on the MEAN stack with Firebase real time database for supervising and task planning in a vineyard. Using web services through APIs, the user can receive weather forecasts or supervise the robots on the field in real-time through Google Maps satellite images. A big challenge for Google Maps integration was increasing the resolution of the vineyard area which has been achieved through drone imaging and tile integration into the Google Maps API. The interface provides 3D visualization of the robot and its surroundings in real-time, as well as a live video feed from the robots’ cameras. After the inspection of a particular area of the vineyard is complete, the user can visualize the inspection results stored in the realtime cloud database and receive information about grape maturation status and yield estimates according to the preferred maturation levels. The operator can also schedule robot and worker activities in specific areas in the vineyard while receiving planning suggestions through appropriate decision-support systems.",
-    image: '/images/bacchus.png',
+    image: './images/bacchus.png',
     tags: ['Angular', 'Express', 'Firebase', 'Google Maps'],
     id: 6,
   },
