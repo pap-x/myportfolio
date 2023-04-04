@@ -36,8 +36,6 @@ export const projects = [
     description:"A full-stack application based on the LAMP stack and jQuery that allows the teaching of assembly tasks to robots through computer vision. The application handled 3D simulation, live video streaming and real-time communication with the robot. The main challenge was providing an easy to use interface for non-experts in order to successfully teach an assembly task to the robot. A user study was conducted that validated the effectiveness of the teaching method and two scientific papers were published as a result.",
     video: 'https://drive.google.com/file/d/157FMFTgMQVl9v_k1yt5le4Y2RwlLmD0r/preview',
     tags: ['jQuery', 'PHP', 'MySQL'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
     id: 4,
   },
   {
