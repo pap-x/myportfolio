@@ -47,9 +47,6 @@ const Timeline = () => {
     <SectionDivider colorAlt/>
     <br/>
     <SectionTitle>Timeline</SectionTitle>
-    <SectionText>
-      The purpose of this site is to demonstrate my skills and achievements in order to give you an idea of my knowledge.
-    </SectionText>
     <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
       <>
         {TimeLineData.map((item, index) => (
