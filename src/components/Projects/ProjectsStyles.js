@@ -31,11 +31,20 @@ export const BlogCard = styled.div`
     width: 100%;
   }
 `;
+
 export const TitleContent = styled.div`
   text-align: center;
   z-index: 20;
   width: 100%;
 
+`;
+
+export const Stack = styled.div`
+  text-align: center;
+  z-index: 20;
+  width: 100%;
+  font-weight: bold;
+  margin-top: 10px;
 `;
 
 
@@ -104,7 +113,7 @@ transition: 0.5s;
 export const TagList = styled.ul`
 display: flex;
 justify-content: space-around;
-padding: 2rem;
+padding: 1rem 2rem;
 `
 export const Tag = styled.li`
 color: #d8bfbf;

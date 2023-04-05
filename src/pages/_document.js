@@ -33,6 +33,8 @@ export default class MyDocument extends Document {
         <Head>
           <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
           <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+          <link rel="shortcut icon" href="/favicon.ico" />
+          <title>CP Portfolio</title>
         </Head>
         <body>
           <Main />
