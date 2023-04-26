@@ -9,19 +9,19 @@ export const projects = [
     id: 0,
   },
   {
-    title: 'SmartSurg',
-    description: "A full-stack application based on Angular for the front-end and a Java knowledge-base Jersey REST API for the back-end. The application allows the creation, editing and validation of surgical protocol for robotic surgeries. The surgeon can easily create a protocol before a surgery with the help of the knowledge-base that provides semantics for each step of the process. The protocol is then validated while the surgery takes place and can be reviewed later in order to prevent errors or assist the teaching process of new robotic-assisted surgeons. A user study involving orthopedic surgeons in mock-up surgeries took place and the application achieved high usability ratings.",
-      video: 'https://drive.google.com/file/d/1W00c8KVqNk8f5a48PlmxzHhoiMFeW5f1/preview',
-      tags: ['Angular', 'Jersey'],
-      source: 'https://github.com/pap-x/smartsurg',
-    id: 1,
-  },
-  {
     title: 'Traqify',
     description: "A full-stack application based on the MEAN stack with Socket.IO that allows the live tracking of products and the optimization of transportations inside a manufacturing line. The application runs on tablets in each station and forklifts. The station workers and forklift drivers can scan the QR code on each product-pallet in order to get information about its contents and update its location. The forklift drivers are notified in real-time when a product is ready for transport, while the supervisor can easily oversee the production progress. The main challenges were the integration of the current MRP system in MSSQL with the application and the usability maximization for tech-illiterate workers. After incorporating the application into the production process a 20% decrease in production time was observed. ",
       video: 'https://www.youtube.com/embed/Oi8LX3UotWA',
       tags: ['Angular', 'MSSQL', 'Express', 'Socket.io'],
       source: 'https://github.com/pap-x/traqify',
+    id: 1,
+  },
+  {
+    title: 'SmartSurg',
+    description: "A full-stack application based on Angular for the front-end and a Java knowledge-base Jersey REST API for the back-end. The application allows the creation, editing and validation of surgical protocol for robotic surgeries. The surgeon can easily create a protocol before a surgery with the help of the knowledge-base that provides semantics for each step of the process. The protocol is then validated while the surgery takes place and can be reviewed later in order to prevent errors or assist the teaching process of new robotic-assisted surgeons. A user study involving orthopedic surgeons in mock-up surgeries took place and the application achieved high usability ratings.",
+      video: 'https://drive.google.com/file/d/1W00c8KVqNk8f5a48PlmxzHhoiMFeW5f1/preview',
+      tags: ['Angular', 'Jersey'],
+      source: 'https://github.com/pap-x/smartsurg',
     id: 2,
   },
   {
