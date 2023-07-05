@@ -75,6 +75,6 @@ export const TimeLineData = [
   { year: 2015, text: 'Diploma of Electrical & Computer Engineering', },
   { year: 2016, text: 'Research Assistant at CERTH', },
   { year: 2018, text: 'Full Stack Developer at ITI', },
-  { year: 2020, text: 'Senior Full Stack Developer at ITI', },
+  { year: 2021, text: 'Senior Full Stack Developer at ITI', },
   { year: 2022, text: 'Master in Technologies of Interactive Systems', },
 ];
